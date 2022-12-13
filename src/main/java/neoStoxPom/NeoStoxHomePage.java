@@ -11,12 +11,8 @@ import neoStoxUtility.UtilityNew;
 
 public class NeoStoxHomePage 
 {
-	
-	
 	@FindBy(xpath = "(//a[text()='OK'])[2]") private WebElement okButton;
-	
 	@FindBy(xpath = "(//a[text()='Close'])[5]") private WebElement closeButton;
-	
 	public NeoStoxHomePage(WebDriver driver)
 	{
 	PageFactory.initElements(driver, this);

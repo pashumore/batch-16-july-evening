@@ -8,8 +8,6 @@ import org.testng.Reporter;
 
 import neoStoxUtility.UtilityNew;
 
-
-
 public class NeoStoxPasswordPage 
 {
 	@FindBy(id = "txt_accesspin") private WebElement passWordField;
