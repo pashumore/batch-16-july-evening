@@ -14,6 +14,11 @@ public class BaseNew
 	
 	public void launchBrowser() throws InterruptedException, IOException
 	{
+		
+		
+		
+		
+		
 	System.setProperty("webdriver.chrome.driver","E:\\16 july A even Selenium\\Selenium\\chromedriver.exe\"");
 			
 	driver= new ChromeDriver();
